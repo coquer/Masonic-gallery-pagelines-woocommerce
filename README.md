@@ -2,8 +2,9 @@ Mansonic Gallery with Woocommerce support
 ================
 How to use:
 ------------
-Place this section inside your child theme sections folder. Reload sections and set configuration. 
+Place this section folder inside your child theme sections folder. Reload sections and set configuration. 
 Support
+
 ------------
 
 Browser  | Support

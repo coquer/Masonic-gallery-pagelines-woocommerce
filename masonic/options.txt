@@ -1,0 +1,207 @@
+array(4) {
+  [0]=>
+  array(3) {
+    ["title"]=>
+    string(6) "Config"
+    ["type"]=>
+    string(5) "multi"
+    ["opts"]=>
+    array(5) {
+      [0]=>
+      array(4) {
+        ["key"]=>
+        string(14) "masonic_format"
+        ["type"]=>
+        string(6) "select"
+        ["label"]=>
+        string(14) "Gallery Format"
+        ["opts"]=>
+        array(2) {
+          ["grid"]=>
+          array(1) {
+            ["name"]=>
+            string(9) "Grid Mode"
+          }
+          ["masonry"]=>
+          array(1) {
+            ["name"]=>
+            string(13) "Image/Masonry"
+          }
+        }
+      }
+      [1]=>
+      array(6) {
+        ["key"]=>
+        string(17) "masonic_post_type"
+        ["type"]=>
+        string(6) "select"
+        ["opts"]=>
+        array(2) {
+          ["post"]=>
+          array(1) {
+            ["name"]=>
+            string(5) "Posts"
+          }
+          ["page"]=>
+          array(1) {
+            ["name"]=>
+            string(5) "Pages"
+          }
+        }
+        ["default"]=>
+        int(4)
+        ["label"]=>
+        string(16) "Select Post Type"
+        ["help"]=>
+        string(185) "<strong>Note</strong><br/> Post types for this section must have "featured images" enabled and be public.<br/><strong>Tip</strong><br/> Use a plugin to create custom post types for use."
+      }
+      [2]=>
+      array(4) {
+        ["key"]=>
+        string(13) "masonic_sizes"
+        ["type"]=>
+        string(17) "select_imagesizes"
+        ["label"]=>
+        string(17) "Select Thumb Size"
+        ["help"]=>
+        string(47) "For best results use large or full image sizes."
+      }
+      [3]=>
+      array(6) {
+        ["key"]=>
+        string(13) "masonic_total"
+        ["type"]=>
+        string(12) "count_select"
+        ["count_start"]=>
+        int(5)
+        ["count_number"]=>
+        int(20)
+        ["default"]=>
+        int(20)
+        ["label"]=>
+        string(18) "Total Posts Loaded"
+      }
+      [4]=>
+      array(4) {
+        ["key"]=>
+        string(15) "masonic_excerpt"
+        ["type"]=>
+        string(5) "check"
+        ["default"]=>
+        bool(false)
+        ["label"]=>
+        string(33) "Display Post Excerpt In Grid Mode"
+      }
+    }
+  }
+  [1]=>
+  array(5) {
+    ["title"]=>
+    string(15) "Masonic Content"
+    ["type"]=>
+    string(5) "multi"
+    ["col"]=>
+    int(3)
+    ["help"]=>
+    string(58) "Options to control the text and link in the Masonic title."
+    ["opts"]=>
+    array(2) {
+      [0]=>
+      array(3) {
+        ["key"]=>
+        string(13) "default_title"
+        ["type"]=>
+        string(4) "text"
+        ["label"]=>
+        string(13) "Default Title"
+      }
+      [1]=>
+      array(4) {
+        ["key"]=>
+        string(12) "masonic_meta"
+        ["type"]=>
+        string(4) "text"
+        ["label"]=>
+        string(12) "Masonic Meta"
+        ["ref"]=>
+        string(718) "Use shortcodes to control the dynamic meta info. Example shortcodes you can use are: <ul><li><strong>[post_categories]</strong> - List of categories</li><li><strong>[post_edit]</strong> - Link for admins to edit the post</li><li><strong>[post_tags]</strong> - List of post tags</li><li><strong>[post_comments]</strong> - Link to post comments</li><li><strong>[post_author_posts_link]</strong> - Author and link to archive</li><li><strong>[post_author_link]</strong> - Link to author URL</li><li><strong>[post_author]</strong> - Post author with no link</li><li><strong>[post_time]</strong> - Time of post</li><li><strong>[post_date]</strong> - Date of post</li><li><strong>[post_type]</strong> - Type of post</li></ul>"
+      }
+    }
+  }
+  [2]=>
+  array(6) {
+    ["key"]=>
+    string(17) "masonic_post_sort"
+    ["col"]=>
+    int(3)
+    ["type"]=>
+    string(6) "select"
+    ["label"]=>
+    string(25) "Sort elements by postdate"
+    ["default"]=>
+    string(4) "DESC"
+    ["opts"]=>
+    array(3) {
+      ["DESC"]=>
+      array(1) {
+        ["name"]=>
+        string(25) "Date Descending (default)"
+      }
+      ["ASC"]=>
+      array(1) {
+        ["name"]=>
+        string(14) "Date Ascending"
+      }
+      ["rand"]=>
+      array(1) {
+        ["name"]=>
+        string(6) "Random"
+      }
+    }
+  }
+  [3]=>
+  array(4) {
+    ["title"]=>
+    string(25) "Additional Post Selection"
+    ["type"]=>
+    string(5) "multi"
+    ["col"]=>
+    int(3)
+    ["opts"]=>
+    array(3) {
+      [0]=>
+      array(4) {
+        ["key"]=>
+        string(16) "masonic_meta_key"
+        ["type"]=>
+        string(4) "text"
+        ["label"]=>
+        string(8) "Meta Key"
+        ["help"]=>
+        string(116) "Select only posts which have a certain meta key and corresponding meta value. Useful for featured posts, or similar."
+      }
+      [1]=>
+      array(3) {
+        ["key"]=>
+        string(18) "masonic_meta_value"
+        ["type"]=>
+        string(4) "text"
+        ["label"]=>
+        string(14) "Meta Key Value"
+      }
+      [2]=>
+      array(5) {
+        ["label"]=>
+        string(13) "Post Category"
+        ["key"]=>
+        string(16) "masonic_category"
+        ["type"]=>
+        string(13) "select_wp_tax"
+        ["post_type"]=>
+        string(4) "post"
+        ["help"]=>
+        string(37) "Only applies for standard blog posts."
+      }
+    }
+  }
+}
